@@ -1,36 +1,26 @@
 
 
-# NewsApp
+# AI NEWS
 
-News app created using Kotlin. This app uses [NewsAPI](https://newsapi.org/) for displaying and searching news. You can also bookmark news articles.
-
-## 👨‍💻Tech Stack
-- <a href="https://developer.android.com/topic/architecture#recommended-app-arch">MVVM Architecture</a> - Seperating UI from business logic.
-- <a href="https://developer.android.com/training/dependency-injection/hilt-android">Hilt</a> - Dependency injection library.
-- <a href="https://developer.android.com/training/data-storage/room">Room</a> - Provides an abstraction layer over SQLite used for offline data caching.
-- <a href="https://developer.android.com/kotlin/flow">Flow</a> and <a href="https://developer.android.com/kotlin/coroutines">Coroutines</a> - Perform asynchronous programming.
 
 ## 📸 Screenshots
 ||||
 |---|---|---|
 | ![news](/screenshots/news.png) | ![saved](/screenshots/saved.png) | ![search](/screenshots/search.png) |
 
-## 🖥️Installation
+## ⚙️Settings
 
-To clone the project, run
+Для налаштування проекту під себе треба сгенерувати свій персональний ключ до NewsAPI, це можна зробити за посиланням [NewsAPI](https://newsapi.org/).
 
-```
-git clone https://github.com/anshtya/NewsApp.git
-```
-Open the project in Android Studio.
-
-This project uses NewsAPI API key. To get yours visit [NewsAPI](https://newsapi.org/). To use the api key open `local.poperties` file and type
+Потім відкрийте свій проект та зайдіть до файлу `gradle.poperties` де ви пропишите свій власний ключ у такій формі:
 ```
 API_KEY = your_api_key
 ```
-Open `Constants.kt` file and replace the value of `COUNTRY_CODE`
+Після цього переходите до файлу `Constants.kt` де буде задаватися ваш `COUNTRY_CODE` у такій формі:
 ```
-const val COUNTRY_CODE = "your_country_code"
-```
-and rebuild the project.
+const val COUNTRY_CODE = "your_country_code", for Ukraine it`s ua, USA - us.
 
+Усі коди країн є за цим посиланням https://newsapi.org/sources .
+Також враховуйте що при обирані кодів будь-якої з країн буде виводитись першочергово новини з місцевих ресурсів.
+```
+Виконав кроки вище зробіть rebuild свого проекту.
