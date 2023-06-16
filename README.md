@@ -2,14 +2,6 @@
 
 # AI NEWS
 
-
-## 📸 Screenshots
-||||
-|---|---|---|
-| ![news](/screenshots/news.jpg) | ![saved](/screenshots/bookmarks.jpg) | ![search](/screenshots/search.jpg) |
-| ![news](/screenshots/night_news.jpg) | ![saved](/screenshots/night_bookmarks.jpg) | ![search](/screenshots/night_search.jpg) |
-| ![search](/screenshots/site.jpg) | ![search](/screenshots/night_site.jpg) |
-
 ## 💡Features
 
 - Світла та темна тема додатку.
@@ -32,3 +24,11 @@ const val COUNTRY_CODE = "your_country_code", for Ukraine it`s ua, USA - us.
 Також враховуйте що при обирані кодів будь-якої з країн, буде виводитись першочергово інформація з місцевих ресурсів.
 ```
 Виконав кроки вище зробіть rebuild свого проекту.
+
+## 📸 Screenshots
+||||
+|---|---|---|
+| ![news](/screenshots/news.jpg) | ![saved](/screenshots/bookmarks.jpg) | ![search](/screenshots/search.jpg) |
+| ![news](/screenshots/night_news.jpg) | ![saved](/screenshots/night_bookmarks.jpg) | ![search](/screenshots/night_search.jpg) |
+| ![search](/screenshots/site.jpg) | ![search](/screenshots/night_site.jpg) |
+
