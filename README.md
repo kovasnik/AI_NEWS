@@ -7,7 +7,8 @@
 ||||
 |---|---|---|
 | ![news](/screenshots/news.jpg) | ![saved](/screenshots/bookmarks.jpg) | ![search](/screenshots/search.jpg) |
-| ![search](/screenshots/night_news.jpg) | ![search](/screenshots/site.jpg) |
+| ![news](/screenshots/night_news.jpg) | ![saved](/screenshots/night_bookmarks.jpg) | ![search](/screenshots/night_search.jpg) |
+| ![search](/screenshots/site.jpg) | ![search](/screenshots/night_site.jpg) |
 
 ## 💡Features
 
