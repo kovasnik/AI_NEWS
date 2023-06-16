@@ -7,6 +7,7 @@
 ||||
 |---|---|---|
 | ![news](/screenshots/news.jpg) | ![saved](/screenshots/bookmarks.jpg) | ![search](/screenshots/search.jpg) |
+| ![search](/screenshots/night_news.jpg) | ![search](/screenshots/site.jpg) |
 
 ## 💡Features
 
