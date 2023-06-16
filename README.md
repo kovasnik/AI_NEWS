@@ -6,7 +6,7 @@
 ## 📸 Screenshots
 ||||
 |---|---|---|
-| ![news](/screenshots/news.png) | ![saved](/screenshots/saved.png) | ![search](/screenshots/search.png) |
+| ![news](/screenshots/news.jpg) | ![saved](/screenshots/bookmarks.jpg) | ![search](/screenshots/search.jpg) |
 
 ## 💡Features
 
